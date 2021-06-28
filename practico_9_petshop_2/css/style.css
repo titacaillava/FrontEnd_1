@@ -1,0 +1,85 @@
+#header-negro{
+    color: white;
+    background-color: black;
+}
+
+#header-naranja{
+    color: white;
+    background-color: #F0A83E;
+}
+
+.texto-comederos{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+#texto-saludo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+}
+
+#texto-comederos{
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    background-position: center center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#h2-destacados{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+.productos{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+
+.precios{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+
+.fondo-footer{
+    background-color: #3C2313;
+}
+
+.nav-footer{
+    color: #FFFFFF;
+}
+
+#parrafo-footer{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #222222;
+}

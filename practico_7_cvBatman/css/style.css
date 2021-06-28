@@ -1,0 +1,38 @@
+h1{
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    background-color: #C4C4C4;
+}
+
+.datos-personales{
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.items{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-size: 15px;    
+}
+
+h2{
+    color: #005677;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #C4C4C4;
+}
+
+
+
+.footer{
+    color: #FFFFFF;
+    background: #005677;
+    text-align: center;
+}

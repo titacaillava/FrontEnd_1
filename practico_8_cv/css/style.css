@@ -1,0 +1,52 @@
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+h1{
+    color: #5a334c;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    background-color: #c3b5c3;
+}
+
+.datos-personales{
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.items{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-size: 15px;    
+}
+
+h2{
+    color: #66465c;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #dfd2d7;
+}
+
+.footer{
+    color: #FFFFFF;
+    background: #5a334c;
+    text-align: center;
+}
+
+#banner-pic{
+    background-image: url('img/banner.jpg');
+    background-size: cover;
+    height: contain;
+
+}
+
+.sobremi{
+    text-align: left;
+}
+

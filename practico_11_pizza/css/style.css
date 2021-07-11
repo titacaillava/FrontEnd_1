@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    width: 1024px;
+    height: 670px;
+}
+
+.flex-container {
+    width: 1024px;
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    position: relative;
+    top: 0px;
+}
+
+.spanHome {
+    position: absolute;
+    padding: 40px 260px 41px 720px;
+}
+
+.spanRanking {
+    position: relative;
+    padding: 40px 189px 41px 777px;
+}
+
+.spanPromocion {
+    position: absolute;
+    padding: 40px 98px 41px 848px;
+}
+
+.spanContacto {
+    position: absolute;
+    padding: 40px 20px 41px 939px;
+}
+
+span {
+    color: #F3F3F3;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.flex-header {
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    margin: 10px 770px 10px 20px;
+}
+
+.flex-main {
+    position: relative;
+    top: 35px;
+    left: 19px;
+    display: flex;
+    border-radius: 5px;
+}
+
+#h2-caja1 {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    bottom: 302px;
+    left: 20px;
+    font-size: 24px;
+    color:#FC200C;
+
+}
+
+.comprando {
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+.flex-caja2 {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    width: 491px;
+    height: 350px;
+    display: flex;
+}
+
+#h2-caja2 {
+    color: #FC200C;
+    position: absolute;
+    padding: 26px 160px 296px;
+}
+
+h3 {
+    position: absolute;
+    padding: 112px 312px 215px 69px;
+}
+.pizzaFalling {
+    width: 92px;
+    height: 129px;
+    position: absolute;
+    top: 132px;
+    left: 325px;
+}
+
+.lista-flex2 {
+    position: absolute;
+    top: 155px;
+    left: 60px;
+    font-size: 16px;
+    font-style: bold;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    background-color: #222222;
+    width: 1024px;
+    height: 150px;
+    top: 65px;
+}
+
+.ul-footer {
+    color: #F3F3F3;
+    position: relative;
+    top: 19px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+
+.logo-footer {
+    position: absolute;
+    width: 212px;
+    height: 80px;
+    top: 35px;
+    right: 42px;
+}
+

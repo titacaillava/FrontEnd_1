@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header negro*/
+
+
+
+#header-negro{
+    color: #F3F3F3;
+    background-color: black;
+    width: 1024px;
+    height: 20px;
+    display: flex;
+    position: relative;
+}
+
+.p-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    padding: 4px 796px 4px 90px;
+    color: #F3F3F3;
+    font-style: normal;
+    position: absolute;
+}
+
+.navEspañol {
+    padding: 4px 106px 4px 882px;
+    position: absolute;
+    font-size: 10px;
+}
+
+.vector-1 {
+    top: 9px;
+    right: 98px;
+    position: absolute; 
+}
+
+.navARG {
+    top: 4px;
+    right: 60px;
+    position: absolute;
+    font-size: 10px;
+}
+
+/*header naranja*/
+
+#fondo-headerNaranja{
+    background-color: #F0A83E;
+    width: 1024px;
+    height: 62px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.logo-header {
+    width: 166px;
+    height: 23px;
+    position: absolute;
+    top: 19px;
+    left: 40px;
+}
+
+.categorias {
+    position: absolute;
+    top: 24px;
+    right: 303px;
+}
+
+.pets {
+    position: absolute;
+    top: 24px;
+    right: 240px;
+}
+
+.nosotros {
+    position: absolute;
+    top: 24px;
+    right: 150px;
+}
+
+.contactanos {
+    position: absolute;
+    top: 24px;
+    right: 40px;
+}
+
+/*main - section 1*/
+
+.container1 {
+    display: flex;
+    position: relative;
+    top: -75px;
+}
+
+#texto-saludo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3C2313;
+    padding: 9px 10px 10px 10px;
+    background-color: #FFFFFF;
+    width: 365px;
+    height: 64px;
+    border-radius: 5px;
+    position: absolute;
+    top: 238px;
+    left: 648px;
+}
+.comederos-descuento{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    color: #3C2313;
+    top: 315px;
+    right: 420px;
+    left: 740px;
+}
+
+#texto-comederos{
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    top: 345px;
+    left: 765px;
+    padding: 15px 23px;
+}
+
+.image-fondo {
+    position: absolute;
+    top: 61px;
+    left: 0px;
+    z-index: -100;
+}
+
+/*productos destacados*/
+
+.huella {
+    position: relative;
+    top: 400px;
+    left: 479px;
+}
+
+#h2-destacados{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+    position: relative;
+    top: 400px;
+    left: 309px;
+}
+
+.comederos-span {
+    position: relative;
+    top: 425px;
+    left: 380px;
+}
+
+/*productos destacados en imagenes*/
+
+.flex-container {
+    display: flex;
+    position: absolute;
+    width: 839px;
+    height: 312px;
+    top: 0px;
+    left: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-item1 {
+    position: relative;
+    top: 720px;
+    left: 95px;
+    background-color: #FBFAF6;
+    width: 265px;
+    height: 312px;
+}
+
+.productos1, .productos2, .productos3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+    position: absolute;
+    top: 259px;
+    left: 59px;
+}
+
+.precios1, .precios2, .precios3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+    position: absolute;
+    top: 287px ;
+    left: 113px;
+}
+
+.flex-item2 {
+    position: relative;
+    top: 720px;
+    left: 100px;
+    background-color: #FBFAF6;
+    width: 265px;
+    height: 312px;
+}
+
+.flex-item3 {
+    position: relative;
+    top: 720px;
+    left: 100px;
+    background-color: #FBFAF6;
+    width: 265px;
+    height: 312px;
+}
+
+.fondo-footer{
+    background-color: #3C2313;
+    position: relative;
+    top: 900px;
+    width: 1024px;
+    height: 284px;
+}
+
+.nav-footer{
+    color: #FFFFFF;
+}
+
+#parrafo-footer{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700px;
+    padding: 4px 419px;
+    background: #222222;
+    width: 1024px;
+    height: 20px;
+    position: relative;
+    bottom: -900px;
+}
+
+.logo_footer {
+    position: absolute;
+    top: 130px;
+    right: 74px;
+}

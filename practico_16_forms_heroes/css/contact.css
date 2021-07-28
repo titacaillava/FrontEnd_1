@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla&family=Roboto:wght@300;400&display=swap');
+*{
+    font-family: 'Roboto', 'Inter', 'Karla', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+#desc {
+    background-color: #1CD1B0;
+    width: 100%
+}
+h1 {
+    font-size: 40px;
+}
+header img {
+    height: 75px;
+    padding: 5px;
+    border-radius: 50%
+}
+h3 {
+    font-size: 15px;
+    padding: 10px 30px;
+}
+main {
+    min-height: 85vh;
+}
+#title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%
+}
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    width: 650px
+}
+label{
+    margin-bottom: 50px
+}
+form a:link {
+    color: #17A9FB   
+}
+form a:visited {
+    color: #17A9FB
+}
+#register {
+    font-size: 72px;
+    font-family: 'Inter';
+    font-weight: bold
+}
+p {
+    font-size: 16px
+}
+input, select, textarea {
+    font-family: 'Karla';
+    font-size: 20px;
+    border-width: 1.5px;
+    border-color: black;
+    padding: 15px;
+    margin: 10px;
+    width: 600px
+}
+textarea {
+    height: 250px;
+    width: 600px
+}
+#buttons {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
+form button {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 25px;
+    font: 'Karla';
+    font-weight: bold;
+    font-size: 1.5em;
+    flex-basis: 0;
+    flex: 1 1 0px;
+}
+#reset {
+    background-color: #888888;
+    color: #FFFFFF;
+}
+#submit {
+    background-color: #1CD1B0;
+    color: #000000;
+}
+span {
+    font-family: 'Karla';
+    color: #222222;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3em
+}
+@media (max-width: 600px) {
+input, select, textarea {
+    font-family: 'Karla';
+    font-size: 20px;
+    border-width: 1.5px;
+    border-color: black;
+    padding: 15px;
+    margin: 10px;
+    width: 95%
+    }
+form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: left;
+        width: 95%
+    }
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #00669F;
+    color: #FFF9F9;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center
+}
+footer img {
+    height: 20px;
+}
+#divtxt {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    font-size: 0.5em;
+}
+#divimg {
+    position: relative;
+    padding: 10px
+}
+}
